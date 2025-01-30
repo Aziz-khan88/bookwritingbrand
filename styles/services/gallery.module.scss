@@ -1,0 +1,30 @@
+.gallerySection {
+    .galleryContainer {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .galleryItem {
+            height: 300px;
+            position: relative;
+            flex: 0 0 calc(25% - 15px);
+            border-radius: 15px;
+
+            img {
+                object-fit: cover;
+                border-radius: 15px;
+            }
+
+            &:first-child {
+                flex: 0 0 50%;
+            }
+
+            &:nth-child(4) {
+                flex: 0 0 75%;
+            }
+        }
+    }
+}

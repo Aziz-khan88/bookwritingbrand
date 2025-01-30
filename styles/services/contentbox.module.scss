@@ -1,0 +1,28 @@
+.contentBox {
+    .contentContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contentItem {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 50px;
+            border-radius: 30px;
+
+            .contnetTxt {
+                flex: 0 0 60%;
+            }
+
+            .contnetImage {
+                flex: 0 0 40%;
+                text-align: right;
+            }
+        }
+
+    }
+}

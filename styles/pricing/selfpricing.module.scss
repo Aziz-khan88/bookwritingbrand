@@ -1,0 +1,77 @@
+.selfServices {
+    .selfServicesContainer {
+        box-shadow: 10px 15px 25px rgba(80, 122, 165, 0.06);
+        background: #FFFFFF;
+        border-radius: 50px;
+        padding: 80px 50px;
+        margin-top: -80px;
+        z-index: 2;
+        position: relative;
+
+        .selfItem {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 100px;
+
+            .selfImage {
+                flex: 0 0 550px;
+                position: relative;
+                height: 490px;
+                border-radius: 30px;
+
+                img {
+                    object-fit: cover;
+                    border-radius: 30px;
+                }
+
+            }
+
+            .selfContent {
+                flex: 0 0 calc(100% - 550px);
+                padding: 25px 50px;
+
+                .category {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 40px;
+                    line-height: 50px;
+                    letter-spacing: -1.32px;
+                    color: #FF7F3E;
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    margin-bottom: 10px;
+
+                    span {
+                        height: 50px;
+                        width: 50px;
+                        background: rgba(255, 127, 62, 0.2);
+                        border-radius: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18.5938px;
+                        line-height: 31px;
+                        display: flex;
+                        align-items: center;
+                        letter-spacing: -0.4px;
+                        justify-content: center;
+                        color: #FF7F3E;
+                    }
+                }
+
+                h4 {
+                    margin-bottom: 15px;
+                }
+            }
+
+            &:nth-child(even) {
+                flex-direction: row-reverse;
+            }
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

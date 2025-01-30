@@ -1,0 +1,21 @@
+.ctaContactSection {
+    height: 630px;
+
+    .bgContact {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+        height: 100%;
+
+
+        .ctaTxt {
+            padding-left: 50px;
+
+            h2,
+            p {
+                color: #fff;
+            }
+        }
+    }
+}

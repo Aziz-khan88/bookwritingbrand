@@ -1,0 +1,43 @@
+.servicesProcess {
+
+
+    .processItem {
+        margin-top: 50px;
+
+        h4 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 40px;
+            letter-spacing: -0.241964px;
+            color: #393939;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #73858F;
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+
+
+        &.processLast {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+    }
+
+    .processLogo {
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+
+        img {
+            height: 400px;
+            width: auto;
+        }
+    }
+
+}

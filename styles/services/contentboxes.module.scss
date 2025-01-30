@@ -1,0 +1,17 @@
+.contentBoxes {
+    margin-top: 25px;
+
+    .contentContainer {
+        background: #FFFFFF;
+        border: 1px solid #FF7F3E;
+        box-shadow: 5px 8px 20px rgba(167, 187, 210, 0.3);
+        border-radius: 20px;
+        padding: 50px 30px;
+        height: 400px;
+
+        h5 {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+    }
+}

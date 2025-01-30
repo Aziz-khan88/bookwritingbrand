@@ -1,0 +1,43 @@
+.servicesBox {
+    .servicesContainer {
+
+        margin-top: 40px;
+
+        .servicesItem {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+
+            .servicesTxt {
+                flex: 0 0 50%;
+                padding-right: 50px;
+            }
+
+            .servicesImage {
+                flex: 0 0 50%;
+
+                .imgBox {
+                    position: relative;
+                    height: 560px;
+                    border-radius: 20px;
+
+                    img {
+                        border-radius: 20px;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            &:nth-child(even) {
+                flex-direction: row-reverse;
+
+                .servicesTxt {
+                    padding-right: 0px;
+                    padding-left: 50px;
+                }
+
+            }
+        }
+    }
+}

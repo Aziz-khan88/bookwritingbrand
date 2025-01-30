@@ -1,0 +1,735 @@
+.menuSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.70);
+    border-radius: 100px;
+    padding: 0px;
+    position: relative;
+
+    &::before {
+        content: '';
+        background: #FFF6E9;
+        backdrop-filter: blur(13.5px);
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 100px;
+    }
+
+    &.isLight {
+        &::before {
+            content: '';
+            background: rgba(0, 0, 0, 1);
+            backdrop-filter: blur(7.5px);
+        }
+    }
+
+    &.active {
+        border: 0px;
+        height: 90px;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    li {
+        height: 100%;
+
+
+        a {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: -0.165px;
+            color: #393939;
+            transition: color 0.3s ease, font-weight 0.3s ease;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 20px;
+
+            &:hover {
+                color: #FF7F3E;
+                transition: color 0.3s ease, font-weight 0.3s ease;
+            }
+
+        }
+
+        .subMenu {
+            display: none;
+            position: fixed;
+            top: 90px;
+            width: 100%;
+            left: 50%;
+            width: 100%;
+            height: 428px;
+            max-width: 1440px;
+            background: #FFFFFF;
+            border: 2px solid #FF7F3E;
+            border-radius: 30px;
+            transform: translate(-50%);
+            overflow: hidden;
+
+            .subMenuContainer {
+                display: flex;
+
+
+                .subMenuImage {
+                    height: 428px;
+                    flex: 0 0 50%;
+                    position: relative;
+
+                    img {
+                        object-fit: cover;
+                    }
+                }
+
+                .subMenuItems {
+                    flex: 0 0 50%;
+                    padding: 50px;
+                    height: 428px;
+
+                    .titleSubMenu {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 96px;
+                        line-height: 90px;
+                        letter-spacing: -0.165px;
+                        color: rgba(255, 127, 62, 0.12);
+                        margin-bottom: 20px;
+                    }
+
+                    ul {
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        li {
+                            flex: 0 0 calc(100% / 2);
+                            margin-bottom: 10px;
+
+                            a {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 28px;
+                                letter-spacing: -0.165px;
+                                color: #393939;
+                                justify-content: flex-start;
+                                align-items: center;
+
+                                svg {
+                                    margin-right: 10px;
+                                }
+
+                                &:hover {
+                                    color: #FF7F3E;
+                                    transition: color 0.3s ease, font-weight 0.3s ease;
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.active {
+            a {
+                color: #FF7F3E;
+            }
+        }
+
+        &:hover {
+            .subMenu {
+                display: block;
+            }
+        }
+
+    }
+}
+
+.mainMobileNavigation {
+    display: none;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .menuSection {
+        height: 65px;
+
+        li {
+            a {
+                font-size: 15px;
+                line-height: 60px;
+            }
+
+            &.subMenu {
+                .submenuContainer {
+                    top: 90px;
+                    max-width: 1280px;
+
+                    .submenuBox {
+                        height: 550px;
+
+                        .titleBox {
+                            flex: 0 0 300px;
+
+                            .mainTitle {
+                                font-size: 80px;
+                                line-height: 90px;
+                                width: 300px;
+
+                                span {
+                                    font-size: 45px;
+                                    line-height: 65px;
+                                }
+                            }
+                        }
+
+                        .menuBox {
+                            flex: 0 0 calc(100% - 300px);
+                            padding: 25px;
+
+                            .serivesMenuBox {
+                                .serivesMenuItem {
+                                    flex: 0 0 33.33%;
+                                    margin-bottom: 15px;
+
+                                    .title {
+                                        a {
+                                            font-size: 15px;
+                                            line-height: 22px;
+                                            margin-bottom: 12px;
+
+                                            svg {
+                                                margin-left: 10px;
+                                                width: 12px;
+                                            }
+                                        }
+                                    }
+
+                                    ul {
+
+                                        li {
+                                            margin-bottom: 5px;
+
+                                            a {
+
+                                                font-size: 13px;
+                                                line-height: 21px;
+
+                                                svg {
+                                                    margin-right: 12px;
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .menuSection {
+        height: 60px;
+
+        li {
+            a {
+                font-size: 14px;
+                line-height: 60px;
+            }
+
+            &.subMenu {
+                .submenuContainer {
+                    top: 85px;
+                    max-width: 1200px;
+
+                    .submenuBox {
+                        height: 530px;
+
+                        .titleBox {
+                            flex: 0 0 280px;
+
+                            .mainTitle {
+                                font-size: 75px;
+                                line-height: 80px;
+                                width: 280px;
+
+                                span {
+                                    font-size: 40px;
+                                    line-height: 60px;
+                                }
+                            }
+                        }
+
+                        .menuBox {
+                            flex: 0 0 calc(100% - 280px);
+                            padding: 25px;
+
+                            .serivesMenuBox {
+                                .serivesMenuItem {
+                                    flex: 0 0 33.33%;
+                                    margin-bottom: 10px;
+
+                                    .title {
+                                        a {
+                                            font-size: 15px;
+                                            line-height: 22px;
+                                            margin-bottom: 10px;
+
+                                            svg {
+                                                margin-left: 8px;
+                                                width: 12px;
+                                            }
+                                        }
+                                    }
+
+                                    ul {
+
+                                        li {
+                                            margin-bottom: 5px;
+
+                                            a {
+                                                font-size: 12px;
+                                                line-height: 20px;
+
+                                                svg {
+                                                    margin-right: 10px;
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .menuSection {
+        height: 55px;
+
+        li {
+            a {
+                font-size: 14px;
+                line-height: 55px;
+            }
+
+            &.subMenu {
+                .submenuContainer {
+                    top: 75px;
+                    max-width: 1080px;
+
+
+                    .submenuBox {
+                        height: 520px;
+                        border-radius: 20px;
+
+                        .titleBox {
+                            flex: 0 0 230px;
+                            border-radius: 20px 0px 0px 20px;
+
+                            .mainTitle {
+                                font-size: 60px;
+                                line-height: 60px;
+                                width: 230px;
+
+                                span {
+                                    font-size: 35px;
+                                    line-height: 55px;
+                                }
+                            }
+                        }
+
+                        .menuBox {
+                            flex: 0 0 calc(100% - 230px);
+                            padding: 20px;
+
+                            .serivesMenuBox {
+                                .serivesMenuItem {
+                                    flex: 0 0 33.33%;
+                                    margin-bottom: 10px;
+
+                                    .title {
+                                        a {
+                                            font-size: 14px;
+                                            line-height: 22px;
+                                            margin-bottom: 10px;
+
+                                            svg {
+                                                margin-left: 5px;
+                                                width: 11px;
+                                            }
+                                        }
+                                    }
+
+                                    ul {
+
+                                        li {
+                                            margin-bottom: 5px;
+
+                                            a {
+                                                font-size: 12px;
+                                                line-height: 20px;
+
+                                                svg {
+                                                    margin-right: 10px;
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .menuSection {
+        height: 50px;
+
+        li {
+            a {
+                font-size: 12px;
+                line-height: 50px;
+            }
+
+            &.subMenu {
+                .submenuContainer {
+                    top: 70px;
+                    max-width: 960px;
+
+
+                    .submenuBox {
+                        height: 500px;
+                        border-radius: 15px;
+
+                        .titleBox {
+                            flex: 0 0 180px;
+                            border-radius: 15px 0px 0px 15px;
+
+                            .mainTitle {
+                                font-size: 45px;
+                                line-height: 45px;
+                                width: 180px;
+
+                                span {
+                                    font-size: 30px;
+                                    line-height: 40px;
+                                }
+                            }
+                        }
+
+                        .menuBox {
+                            flex: 0 0 calc(100% - 180px);
+                            padding: 20px;
+
+                            .serivesMenuBox {
+                                .serivesMenuItem {
+                                    flex: 0 0 33.33%;
+                                    margin-bottom: 10px;
+
+                                    .title {
+                                        a {
+                                            font-size: 14px;
+                                            line-height: 22px;
+                                            margin-bottom: 10px;
+
+                                            svg {
+                                                margin-left: 8px;
+                                                width: 10px;
+                                            }
+                                        }
+                                    }
+
+                                    ul {
+
+                                        li {
+                                            margin-bottom: 5px;
+
+                                            a {
+                                                font-size: 12px;
+                                                line-height: 19px;
+
+                                                svg {
+                                                    margin-right: 5px;
+                                                    height: 8px;
+                                                    width: auto;
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .menuSection {
+        height: 50px;
+        justify-content: center;
+        gap: 20px;
+        max-width: 90%;
+
+        li {
+            a {
+                font-size: 12px;
+                line-height: 50px;
+            }
+
+            &.subMenu {
+                .submenuContainer {
+                    top: 70px;
+                    max-width: 960px;
+
+                    .submenuBox {
+                        height: 500px;
+                        border-radius: 15px;
+
+                        .titleBox {
+                            flex: 0 0 180px;
+                            border-radius: 15px 0px 0px 15px;
+                            display: none;
+
+                            .mainTitle {
+                                font-size: 45px;
+                                line-height: 45px;
+                                width: 180px;
+
+                                span {
+                                    font-size: 30px;
+                                    line-height: 40px;
+                                }
+                            }
+                        }
+
+                        .menuBox {
+                            flex: 0 0 100%;
+                            padding: 20px;
+
+                            .serivesMenuBox {
+                                .serivesMenuItem {
+                                    flex: 0 0 33.33%;
+                                    margin-bottom: 10px;
+
+                                    .title {
+                                        a {
+                                            font-size: 14px;
+                                            line-height: 22px;
+                                            margin-bottom: 10px;
+
+                                            svg {
+                                                margin-left: 8px;
+                                                width: 10px;
+                                            }
+                                        }
+                                    }
+
+                                    ul {
+
+                                        li {
+                                            margin-bottom: 5px;
+
+                                            a {
+                                                font-size: 12px;
+                                                line-height: 19px;
+
+                                                svg {
+                                                    margin-right: 5px;
+                                                    height: 8px;
+                                                    width: auto;
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .menuSection {
+        display: none;
+    }
+
+    .mainMobileNavigation {
+        position: fixed;
+        width: 300px;
+        height: calc(100vh - 0px);
+        background: rgba(0, 0, 0, 0.35);
+        backdrop-filter: blur(7.5px);
+        top: 60px;
+        right: -300px;
+        transition: width 0.5s, opacity 0.5s;
+        z-index: 9;
+        opacity: 0;
+        overflow: auto;
+        animation: slideFromTop 0.5s forwards;
+        border: 0px;
+        border-radius: 0px;
+        display: flex;
+
+        &.active {
+            right: 0px;
+            opacity: 1;
+            animation: slideFromTop 0.5s forwards;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            .mobileNavigation {
+                padding: 10px 20px 10px;
+                height: calc(100vh - 110px);
+                overflow: auto;
+
+                li {
+                    height: 40px;
+                    border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    a {
+                        font-size: 14px;
+                        font-weight: 300;
+                        color: #fff;
+                        line-height: normal;
+                        transition: 0.3s linear;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex: 0 0 calc(100% - 30px);
+
+
+                        &:hover {
+                            transition: .3s linear;
+                            color: #9AFF35;
+                        }
+                    }
+
+                    .subMenuIcon {
+                        flex: 0 0 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        height: 100%;
+
+                        svg {
+                            height: 11px;
+                            transform: rotate(90deg);
+
+
+                            path {
+                                stroke: #fff;
+                            }
+                        }
+
+                        &:hover {
+                            svg {
+                                transform: rotate(0deg);
+
+                                path {
+                                    stroke: #9AFF35;
+                                }
+                            }
+                        }
+                    }
+
+                    &.subMobileMenu {
+                        .mobilesubMenu {
+                            display: none;
+                        }
+
+                        &:hover {
+                            height: auto;
+                            flex-wrap: wrap;
+
+                            a {
+                                height: 40px;
+                            }
+
+                            .mobilesubMenu {
+                                display: block;
+                                width: 100%;
+                                margin-bottom: 10px;
+
+                                li {
+                                    height: 25px;
+                                    border: 0px;
+
+                                    a {
+                                        font-size: 12px;
+                                        font-weight: 400;
+                                        color: #fff;
+                                        line-height: normal;
+                                        transition: 0.3s linear;
+                                        width: 100%;
+                                        height: auto;
+                                        justify-content: flex-start;
+
+
+                                        svg {
+                                            height: 8px;
+                                            width: auto;
+                                            margin-right: 10px;
+
+                                        }
+
+                                        &:hover {
+                                            transition: .3s linear;
+                                            color: #9AFF35;
+
+                                            svg {
+                                                circle {
+                                                    stroke: #9AFF35;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    &:last-child {
+                                        border-bottom: 0px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

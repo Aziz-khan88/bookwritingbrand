@@ -1,0 +1,22 @@
+.bannerSection {
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 1000px auto;
+    height: 90vh;
+
+    &.bgImage {
+        background-size: cover;
+        background-position: center center;
+        border-radius: 0 0 100px 100px;
+    }
+
+    .bannerLogo {
+        margin-top: 30px;
+    }
+
+
+}
+
+.bannerBlogSection {
+    height: 500px;
+}
