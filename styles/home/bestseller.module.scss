@@ -16,7 +16,7 @@
             .embla__viewport {
                 .embla__container {
                     .embla__slide {
-                        height: 700px;
+                        height: auto;
                     }
                 }
             }
@@ -50,9 +50,10 @@
                         height: auto;
                         position: relative;
                         background: #fff;
-                        box-shadow: 10px 15px 25px rgba(80, 122, 165, 0.06);
                         border-radius: 20px;
-
+                        border: 2px solid #00000000;
+                        box-shadow: 10px 15px 25px rgba(80, 122, 165, 0.06);
+                        margin: 0px 0px 20px;
 
                         img {
                             border-radius: 20px;
@@ -120,7 +121,6 @@
 
                             .industriesContent {
                                 h4 {
-                                    text-transform: uppercase;
                                     color: #ff7f3e;
                                     transition: all 0.3s ease;
                                 }

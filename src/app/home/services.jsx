@@ -34,7 +34,7 @@ const Services = ({ data, offer, landing }) => {
                     </Col>
                     <Col md={12} className="mt-5">
                         {landing ?
-                            <UniqueButton txt="Free Consultation-Let’s Talk Now!" center={true} />
+                            <UniqueButton txt="Free Consultation-Let’s Talk Now!" OneBtn={true} center={true} />
                             : ""
                         }
                     </Col>

@@ -5,6 +5,7 @@ import UniqueButton from "@/src/app/components/uniquebutton"
 import useEmblaCarousel from 'embla-carousel-react'
 import Img01 from "@/public/landing/lp1/slider/Img01.webp"
 import Img02 from "@/public/landing/lp1/slider/Img02.webp"
+import Img03 from "@/public/landing/lp1/slider/Img03.webp"
 import Image from "next/image";
 import Autoplay from 'embla-carousel-autoplay'
 
@@ -21,9 +22,24 @@ const data = [
         img: Img02.src,
     },
     {
+        title: "Proofreading",
+        txt: "Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss.",
+        img: Img03.src,
+    },
+    {
         title: "Manuscript Evaluation",
         txt: "Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss.",
         img: Img01.src,
+    },
+    {
+        title: "Book Editing",
+        txt: "Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss.",
+        img: Img02.src,
+    },
+    {
+        title: "Proofreading",
+        txt: "Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss.",
+        img: Img03.src,
     }
 ]
 const Journey = () => {
@@ -33,7 +49,7 @@ const Journey = () => {
             <section className={`${styles.journeyTitle} pt-100`}>
                 <Container>
                     <Row>
-                        <Col md={10} lg={8} className="m-auto text-center">
+                        <Col md={10} lg={9} className="m-auto text-center">
                             <h2>Your Publishing Journey Start Here</h2>
                             <p>Know this: not many authors secure any deal with the publishers. But at Book Writing, we help you connect and collaborate with high-profile publishers and Children's Book Publishing experts.</p>
                         </Col>
@@ -49,7 +65,7 @@ const Journey = () => {
                                     <h2>Professional Self Publishing Services</h2>
                                     <p>Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss.</p>
                                     <p>Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss. Oftentimes, we find ourselves indulging.</p>
-                                    <UniqueButton txt="Let’s Connect" />
+                                    <UniqueButton txt="Talk to a Specialist" />
                                 </div>
                                 <div className={styles.sliderSection}>
                                     <div className={styles.embla}>

@@ -5,7 +5,7 @@ import ContactFrom from "@/src/app/components/contactfrom"
 import FromBg from "media/landing/lp1/contactBg.webp"
 
 
-const ServicesForm = ({ bg }) => {
+const ServicesForm = ({ bg, txt }) => {
     return (
         <section className={`${styles.serviceSection}  pt-100`}>
             <Container
@@ -22,7 +22,7 @@ const ServicesForm = ({ bg }) => {
                                     "Request A Free Quote"
                                 )}
                             </h2>
-                            <ContactFrom vertical={true} />
+                            <ContactFrom vertical={true} txt={txt} />
                         </div>
                     </Col>
                 </Row>

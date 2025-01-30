@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Form } from "react-bootstrap"
 import { usePathname } from 'next/navigation'
 
-const ContactFrom = ({ bg, vertical }) => {
+const ContactFrom = ({ bg, vertical, txt }) => {
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
     const [isDisabled, setIsDisabled] = useState(false);
@@ -109,7 +109,7 @@ const ContactFrom = ({ bg, vertical }) => {
                 ) : null}
                 <div className={styles.contactBtn}>
                     <button type="submit" className="commonBtn" disabled={isDisabled}>
-                        {vertical ? "Talk to a Specialist" : formStatus}
+                        {txt ? txt : formStatus}
                     </button>
                 </div>
             </div>

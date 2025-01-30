@@ -1,7 +1,7 @@
 
 import styles from "@/styles/components/uniquebutton.module.scss"
 
-const UniqueButton = ({ center, BgBlack, txt, SimpleBtn }) => {
+const UniqueButton = ({ center, BgBlack, txt, SimpleBtn, OneBtn }) => {
     return (
         <>
             {SimpleBtn ?
@@ -11,7 +11,10 @@ const UniqueButton = ({ center, BgBlack, txt, SimpleBtn }) => {
                 :
                 <div className={`${styles.btnFlex} ${center ? styles.center : ""} ${BgBlack ? styles.bgBlack : ""}`}>
                     <div className={styles.btnStyle}>{txt}</div>
-                    <div className={styles.chatStyle}>866-600-0036</div>
+                    {!OneBtn ?
+                        <div className={styles.chatStyle}>Chat Now</div>
+                        : ''
+                    }
                 </div>
             }
         </>

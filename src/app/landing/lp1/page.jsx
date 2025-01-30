@@ -15,7 +15,7 @@ export default function Page() {
     return (
         <>
             <Banner />
-            <ServicesForm />
+            <ServicesForm txt="Let’s Publish Your Book- Fill the Form Today!" />
             <BestSeller data={BestSellerData} landing={true} />
             <Services data={ServicesData} landing={true} />
             <Journey />
@@ -23,7 +23,7 @@ export default function Page() {
             <ContentBox data={ContentBox2} alternet={true} />
             <ContentBox data={ContentBox3} />
             <ServicesProcess data={ProcessData} />
-            <ServicesForm bg={true} />
+            <ServicesForm bg={true} txt="Get Your Free Publishing Roadmap!" />
             <WhyChoose data={ChooseUsData} />
             <Reviews />
             <GetQuote />

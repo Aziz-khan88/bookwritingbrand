@@ -100,16 +100,19 @@ const BestSeller = ({ innerPage, landing, data }) => {
         <section className={`${styles.bestsellerSection} ${innerPage ? styles.innerPageSection : ""} ${landing ? styles.landingSection : ""}  pt-100`}>
             <Container>
                 <Row>
-                    <Col md={7}>
+                    <Col md={8} className={landing ? "text-center m-auto" : ""}>
                         <h2>{data.title}</h2>
                         <p>{data.txt}</p>
-                    </Col>
-                    <Col md={5} className="mt-auto d-none d-md-block">
-                        <SliderArrow
-                            onPrev={prevButtonHandler}
-                            onNext={nextButtonHandler}
-                        />
-                    </Col>
+                    </Col>    {!landing ?
+                        <Col md={4} className="mt-auto d-none d-md-block">
+
+                            <SliderArrow
+                                onPrev={prevButtonHandler}
+                                onNext={nextButtonHandler}
+                            />
+                        </Col>
+                        : null
+                    }
                 </Row>
                 <Row>
                     <Col md={12}>
@@ -122,10 +125,15 @@ const BestSeller = ({ innerPage, landing, data }) => {
                                                 <Image src={item.Img} alt={`Image ${index}`} width={1800} height={2700} />
                                                 <div className={styles.industriesContent}>
                                                     <h4>{item.title}</h4>
-                                                    <p>{item.txt}</p>
-                                                    <div className={styles.btnReaMore}>
-                                                        Visit Amazon
-                                                    </div>
+                                                    {!landing ? (
+                                                        <>
+                                                            <p>{item.txt}</p>
+                                                            <div className={styles.btnReaMore}>
+                                                                Visit Amazon
+                                                            </div>
+                                                        </>
+                                                    )
+                                                        : null}
                                                 </div>
                                             </div>
                                         </div>
