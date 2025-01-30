@@ -3,7 +3,7 @@ import Clients from "@/src/app/home/clients";
 import BestSeller from "@/src/app/home/bestseller";
 import ServicesForm from "@/src/app/services/servicesform";
 import Team from "@/src/app/services/team";
-import { BannerData, ProcessData } from "@/src/app/children-book-illustrator/data/data";
+import { BannerData, ProcessData, BestSellerData } from "@/src/app/children-book-illustrator/data/data";
 import ServicesProcess from "@/src/app/services/servicesprocess";
 import Reviews from "@/src/app/home/reviews";
 import CtaChild from "@/src/app/services/ctachild";
@@ -20,7 +20,7 @@ export default function Page() {
             <ServicesForm />
             <Team />
             <CtaChild />
-            <BestSeller innerPage={true} />
+            <BestSeller innerPage={true} data={BestSellerData} />
             <Gallery />
             <Reviews />
             <ServicesProcess data={ProcessData} />

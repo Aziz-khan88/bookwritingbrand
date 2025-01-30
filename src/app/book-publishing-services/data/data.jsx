@@ -27,7 +27,10 @@ export const InnerServicesData = {
         }
     ]
 }
-
+export const BestSellerData = {
+    title: "Our Latest Book Publishing Projects",
+    txt: "Let Our Book Publishing Team Help You"
+}
 //Services
 import Image01 from "media/services/book-marketing-services/services/img01.webp"
 import Image02 from "media/services/book-marketing-services/services/img02.webp"

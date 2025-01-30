@@ -4,7 +4,10 @@ export const BannerData = {
     txt: "Make the most of the immense value with Children’s Book Publishing!",
     img: BannerImg.src
 }
-
+export const BestSellerData = {
+    title: "Our Latest Children's Book Publishing Projects",
+    txt: "Let Our Children's Book Publishing Team Help You"
+}
 //Services
 export const ServicesData = {
     subtitle: "Our Services",

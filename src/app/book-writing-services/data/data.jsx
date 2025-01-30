@@ -5,7 +5,10 @@ export const BannerData = {
     img: BannerImg.src
 }
 
-
+export const BestSellerData = {
+    title: "Our Book Writing Projects",
+    txt: "Let Our Book Writing Team Help You."
+}
 
 export const InnerServicesData = {
     title: "Why does one need professional book writing services?",

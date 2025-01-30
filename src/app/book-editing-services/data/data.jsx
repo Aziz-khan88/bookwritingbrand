@@ -4,6 +4,10 @@ export const BannerData = {
     txt: "Professional book editors: the pros to fix the literary flaws.Top- ranked book editing company in US.",
     img: BannerImg.src
 }
+export const BestSellerData = {
+    title: "Our Book Editing Projects",
+    txt: "Let Our Book Editing Team Help You."
+}
 
 export const InnerServicesData = {
     title: "Why Do You Need Professional Book Editing Services?",

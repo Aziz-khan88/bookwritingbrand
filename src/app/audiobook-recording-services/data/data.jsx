@@ -5,7 +5,7 @@ export const BannerData = {
     img: BannerImg.src
 }
 
-const BestSellerData = {
+export const BestSellerData = {
     title: "Our Latest Audiobook Recording Projects",
     txt: "Let Our Audiobook Recording Team Help You"
 }

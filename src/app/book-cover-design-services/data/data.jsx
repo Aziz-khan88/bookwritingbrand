@@ -5,7 +5,7 @@ export const BannerData = {
     img: BannerImg.src
 }
 
-const BestSellerData = {
+export const BestSellerData = {
     title: "Done and Dusted Book Cover Design Projects That Shed Light on Our Credibility",
     txt: "Here are a few book cover design projects that we accomplished with utmost finesse."
 }

@@ -42,6 +42,14 @@ export const ServicesData = {
         },
     ]
 }
+
+export const BestSellerData = {
+    title: "Our Best Sellers",
+    txt: "Lorem ipsum dolor sit amet blandit consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec lorem."
+}
+
+
+
 // CTA
 import CtaImage from "@/public/home/ctaImage.webp"
 export const CtaData = {

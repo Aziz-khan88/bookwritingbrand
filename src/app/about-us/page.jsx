@@ -2,7 +2,7 @@ import Banenr from "@/src/app/about-us/banner";
 import Clients from "@/src/app/home/clients";
 import BestSeller from "@/src/app/home/bestseller";
 import ContentSec from "@/src/app/about-us/contentsec";
-import { ContentBox1, ContentBox2, CtaData } from "@/src/app/about-us/data/data";
+import { ContentBox1, ContentBox2, CtaData, BestSellerData } from "@/src/app/about-us/data/data";
 import CTA from "@/src/app/home/cta";
 import Reviews from "@/src/app/home/reviews";
 import Faqs from "@/src/app/home/faq";
@@ -13,7 +13,7 @@ export default function Page() {
         <>
             <Banenr />
             <Clients />
-            <BestSeller innerPage={true} />
+            <BestSeller innerPage={true} data={BestSellerData} />
             <ContentSec data={ContentBox1} />
             <ContentSec data={ContentBox2} alternet={true} />
             <CTA data={CtaData} />

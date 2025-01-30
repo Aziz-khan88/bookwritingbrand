@@ -18,7 +18,10 @@ export const ContentBox2 = {
     </>),
     image: Img02.src,
 }
-
+export const BestSellerData = {
+    title: "We make stories… happen!",
+    txt: "Let us help you tell it."
+}
 // CTA
 import CtaImage from "@/public/home/ctaImage.webp"
 export const CtaData = {

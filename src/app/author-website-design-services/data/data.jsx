@@ -5,7 +5,7 @@ export const BannerData = {
     img: BannerImg.src
 }
 
-const BestSellerData = {
+export const BestSellerData = {
     title: "A Quick Look At Our Captivating Author Website Design Projects",
     txt: "Our team of experienced and skilled website designers stays one step ahead of the latest trends to keep you satisfied!"
 }

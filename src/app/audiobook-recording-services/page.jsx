@@ -4,7 +4,7 @@ import BestSeller from "@/src/app/home/bestseller";
 import InnerServices from "@/src/app/services/innerservices";
 import ServicesForm from "@/src/app/services/servicesform";
 import Services from "@/src/app/home/services";
-import { InnerServicesData, ServicesData, BannerData, ProcessData } from "@/src/app/audiobook-recording-services/data/data";
+import { InnerServicesData, ServicesData, BannerData, ProcessData, BestSellerData } from "@/src/app/audiobook-recording-services/data/data";
 import ServicesProcess from "@/src/app/services/servicesprocess";
 
 
@@ -15,7 +15,7 @@ export default function Page() {
             <Banenr data={BannerData} />
             <Clients />
             <ServicesForm />
-            <BestSeller innerPage={true} />
+            <BestSeller innerPage={true} data={BestSellerData} />
             <InnerServices data={InnerServicesData} />
             <Services data={ServicesData} />
             <ServicesProcess data={ProcessData} />

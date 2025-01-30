@@ -7,7 +7,7 @@ import BestSeller from "@/src/app/home/bestseller";
 import CTA from "@/src/app/home/cta";
 import Reviews from "@/src/app/home/reviews";
 import Faqs from "@/src/app/home/faq";
-import { ServicesData, ProcessData, CtaData } from "@/src/app/home/data/data";
+import { ServicesData, ProcessData, CtaData, BestSellerData } from "@/src/app/home/data/data";
 
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       <Story />
       <Services data={ServicesData} />
       <WhyChoose data={ProcessData} />
-      <BestSeller />
+      <BestSeller data={BestSellerData} />
       <CTA data={CtaData} />
       <Reviews />
       <Faqs />

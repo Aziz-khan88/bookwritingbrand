@@ -5,7 +5,10 @@ export const BannerData = {
     img: BannerImg.src
 }
 
-
+export const BestSellerData = {
+    title: "Our Recent Book Trailer Projects That Roar For Our Sound Expertise!",
+    txt: "Here’s a list of our done-and-dusted projects that we completed with utmost excellence and received rave reviews from our clients."
+}
 
 export const InnerServicesData = {
     title: "Untangle The Complexity Of Your Manuscript Selling With Our Book Marketing Services!",

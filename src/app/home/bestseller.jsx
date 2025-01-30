@@ -142,12 +142,15 @@ const BestSeller = ({ innerPage, landing, data }) => {
                             </div>
                         </div>
                     </Col>
-                    <Col md={12} className="mt-auto d-sm-block d-md-none">
-                        <SliderArrow
-                            onPrev={prevButtonHandler}
-                            onNext={nextButtonHandler}
-                        />
-                    </Col>
+                    {!landing ?
+                        <Col md={12} className="mt-auto d-sm-block d-md-none">
+                            <SliderArrow
+                                onPrev={prevButtonHandler}
+                                onNext={nextButtonHandler}
+                            />
+                        </Col>
+                        : null
+                    }
                 </Row>
 
             </Container>

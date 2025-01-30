@@ -5,7 +5,7 @@ export const BannerData = {
     img: BannerImg.src
 }
 
-const BestSellerData = {
+export const BestSellerData = {
     title: "Our Done and Dusted Proofreading Projects That Speak For Our Credibility",
     txt: "Here are a few proofreading projects that we accomplished with utmost finesse."
 }
