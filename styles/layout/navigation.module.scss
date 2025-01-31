@@ -1,6 +1,6 @@
 .menuSection {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: 70px;
     border: 1px solid rgba(255, 255, 255, 0.70);
@@ -155,82 +155,66 @@
     }
 }
 
-.mainMobileNavigation {
-    display: none;
-}
-
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .menuSection {
-        height: 65px;
+        height: 60px;
+
+        &.active {
+            height: 60px;
+
+            &::before {
+                display: none;
+            }
+        }
 
         li {
+            height: 100%;
+
+
             a {
                 font-size: 15px;
-                line-height: 60px;
+                padding: 0px 20px;
             }
 
-            &.subMenu {
-                .submenuContainer {
-                    top: 90px;
-                    max-width: 1280px;
+            .subMenu {
+                top: 80px;
+                height: 400px;
+                max-width: 1280px;
 
-                    .submenuBox {
-                        height: 550px;
+                .subMenuContainer {
+                    display: flex;
 
-                        .titleBox {
-                            flex: 0 0 300px;
+                    .subMenuImage {
+                        height: 400px;
+                        flex: 0 0 50%;
+                        position: relative;
+                    }
 
-                            .mainTitle {
-                                font-size: 80px;
-                                line-height: 90px;
-                                width: 300px;
+                    .subMenuItems {
+                        flex: 0 0 50%;
+                        padding: 30px;
+                        height: 400px;
 
-                                span {
-                                    font-size: 45px;
-                                    line-height: 65px;
-                                }
-                            }
+                        .titleSubMenu {
+                            font-size: 85px;
+                            line-height: 85px;
+                            margin-bottom: 10px;
                         }
 
-                        .menuBox {
-                            flex: 0 0 calc(100% - 300px);
-                            padding: 25px;
+                        ul {
 
-                            .serivesMenuBox {
-                                .serivesMenuItem {
-                                    flex: 0 0 33.33%;
-                                    margin-bottom: 15px;
+                            li {
+                                margin-bottom: 10px;
 
-                                    .title {
-                                        a {
-                                            font-size: 15px;
-                                            line-height: 22px;
-                                            margin-bottom: 12px;
+                                a {
 
-                                            svg {
-                                                margin-left: 10px;
-                                                width: 12px;
-                                            }
-                                        }
+                                    font-size: 16px;
+                                    line-height: 26px;
+
+                                    svg {
+                                        margin-right: 10px;
                                     }
 
-                                    ul {
-
-                                        li {
-                                            margin-bottom: 5px;
-
-                                            a {
-
-                                                font-size: 13px;
-                                                line-height: 21px;
-
-                                                svg {
-                                                    margin-right: 12px;
-                                                }
-
-                                            }
-                                        }
-                                    }
                                 }
                             }
                         }
@@ -245,73 +229,63 @@
     .menuSection {
         height: 60px;
 
+        &.active {
+            height: 60px;
+
+            &::before {
+                display: none;
+            }
+        }
+
         li {
+            height: 100%;
+
+
             a {
-                font-size: 14px;
-                line-height: 60px;
+                font-size: 15px;
+                padding: 0px 15px;
+
             }
 
-            &.subMenu {
-                .submenuContainer {
-                    top: 85px;
-                    max-width: 1200px;
+            .subMenu {
+                top: 75px;
+                height: 360px;
+                max-width: 1200px;
 
-                    .submenuBox {
-                        height: 530px;
+                .subMenuContainer {
+                    display: flex;
 
-                        .titleBox {
-                            flex: 0 0 280px;
+                    .subMenuImage {
+                        height: 360px;
+                        flex: 0 0 50%;
+                        position: relative;
+                    }
 
-                            .mainTitle {
-                                font-size: 75px;
-                                line-height: 80px;
-                                width: 280px;
+                    .subMenuItems {
+                        flex: 0 0 50%;
+                        padding: 30px;
+                        height: 360px;
 
-                                span {
-                                    font-size: 40px;
-                                    line-height: 60px;
-                                }
-                            }
+                        .titleSubMenu {
+                            font-size: 80px;
+                            line-height: 80px;
+                            margin-bottom: 10px;
                         }
 
-                        .menuBox {
-                            flex: 0 0 calc(100% - 280px);
-                            padding: 25px;
+                        ul {
 
-                            .serivesMenuBox {
-                                .serivesMenuItem {
-                                    flex: 0 0 33.33%;
-                                    margin-bottom: 10px;
+                            li {
+                                margin-bottom: 10px;
 
-                                    .title {
-                                        a {
-                                            font-size: 15px;
-                                            line-height: 22px;
-                                            margin-bottom: 10px;
+                                a {
 
-                                            svg {
-                                                margin-left: 8px;
-                                                width: 12px;
-                                            }
-                                        }
+                                    font-size: 15px;
+                                    line-height: 22px;
+
+                                    svg {
+                                        margin-right: 10px;
                                     }
 
-                                    ul {
-
-                                        li {
-                                            margin-bottom: 5px;
-
-                                            a {
-                                                font-size: 12px;
-                                                line-height: 20px;
-
-                                                svg {
-                                                    margin-right: 10px;
-                                                }
-
-                                            }
-                                        }
-                                    }
                                 }
                             }
                         }
@@ -324,78 +298,61 @@
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
     .menuSection {
-        height: 55px;
+        height: 60px;
+
+        &.active {
+            height: 60px;
+        }
 
         li {
+            height: 100%;
+
+
             a {
                 font-size: 14px;
-                line-height: 55px;
+                padding: 0px 15px;
             }
 
-            &.subMenu {
-                .submenuContainer {
-                    top: 75px;
-                    max-width: 1080px;
+            .subMenu {
+                top: 70px;
+                height: 350px;
+                max-width: 1080px;
+                border-radius: 20px;
 
+                .subMenuContainer {
+                    display: flex;
 
-                    .submenuBox {
-                        height: 520px;
-                        border-radius: 20px;
+                    .subMenuImage {
+                        height: 350px;
+                        flex: 0 0 50%;
+                        position: relative;
+                    }
 
-                        .titleBox {
-                            flex: 0 0 230px;
-                            border-radius: 20px 0px 0px 20px;
+                    .subMenuItems {
+                        flex: 0 0 50%;
+                        padding: 20px;
+                        height: 350px;
 
-                            .mainTitle {
-                                font-size: 60px;
-                                line-height: 60px;
-                                width: 230px;
-
-                                span {
-                                    font-size: 35px;
-                                    line-height: 55px;
-                                }
-                            }
+                        .titleSubMenu {
+                            font-size: 75px;
+                            line-height: 75px;
+                            margin-bottom: 10px;
                         }
 
-                        .menuBox {
-                            flex: 0 0 calc(100% - 230px);
-                            padding: 20px;
+                        ul {
 
-                            .serivesMenuBox {
-                                .serivesMenuItem {
-                                    flex: 0 0 33.33%;
-                                    margin-bottom: 10px;
+                            li {
+                                margin-bottom: 10px;
 
-                                    .title {
-                                        a {
-                                            font-size: 14px;
-                                            line-height: 22px;
-                                            margin-bottom: 10px;
+                                a {
 
-                                            svg {
-                                                margin-left: 5px;
-                                                width: 11px;
-                                            }
-                                        }
+                                    font-size: 15px;
+                                    line-height: 24px;
+
+                                    svg {
+                                        margin-right: 10px;
                                     }
 
-                                    ul {
-
-                                        li {
-                                            margin-bottom: 5px;
-
-                                            a {
-                                                font-size: 12px;
-                                                line-height: 20px;
-
-                                                svg {
-                                                    margin-right: 10px;
-                                                }
-
-                                            }
-                                        }
-                                    }
                                 }
                             }
                         }
@@ -410,78 +367,58 @@
     .menuSection {
         height: 50px;
 
+        &.active {
+            height: 50px;
+        }
+
         li {
+            height: 100%;
+
             a {
-                font-size: 12px;
-                line-height: 50px;
+                font-size: 13px;
+                padding: 0px 10px;
             }
 
-            &.subMenu {
-                .submenuContainer {
-                    top: 70px;
-                    max-width: 960px;
+            .subMenu {
+                top: 60px;
+                height: 280px;
+                max-width: 960px;
+                border-radius: 20px;
 
+                .subMenuContainer {
+                    display: flex;
 
-                    .submenuBox {
-                        height: 500px;
-                        border-radius: 15px;
+                    .subMenuImage {
+                        height: 320px;
+                        flex: 0 0 40%;
+                        position: relative;
+                    }
 
-                        .titleBox {
-                            flex: 0 0 180px;
-                            border-radius: 15px 0px 0px 15px;
+                    .subMenuItems {
+                        flex: 0 0 60%;
+                        padding: 15px;
+                        height: 320px;
 
-                            .mainTitle {
-                                font-size: 45px;
-                                line-height: 45px;
-                                width: 180px;
-
-                                span {
-                                    font-size: 30px;
-                                    line-height: 40px;
-                                }
-                            }
+                        .titleSubMenu {
+                            font-size: 75px;
+                            line-height: 75px;
+                            margin-bottom: 10px;
                         }
 
-                        .menuBox {
-                            flex: 0 0 calc(100% - 180px);
-                            padding: 20px;
+                        ul {
 
-                            .serivesMenuBox {
-                                .serivesMenuItem {
-                                    flex: 0 0 33.33%;
-                                    margin-bottom: 10px;
+                            li {
+                                margin-bottom: 10px;
 
-                                    .title {
-                                        a {
-                                            font-size: 14px;
-                                            line-height: 22px;
-                                            margin-bottom: 10px;
+                                a {
 
-                                            svg {
-                                                margin-left: 8px;
-                                                width: 10px;
-                                            }
-                                        }
+                                    font-size: 14px;
+                                    line-height: 22px;
+
+                                    svg {
+                                        margin-right: 10px;
                                     }
 
-                                    ul {
-
-                                        li {
-                                            margin-bottom: 5px;
-
-                                            a {
-                                                font-size: 12px;
-                                                line-height: 19px;
-
-                                                svg {
-                                                    margin-right: 5px;
-                                                    height: 8px;
-                                                    width: auto;
-                                                }
-
-                                            }
-                                        }
-                                    }
                                 }
                             }
                         }
@@ -495,82 +432,58 @@
 @media only screen and (min-width: 768px) and (max-width:899px) {
     .menuSection {
         height: 50px;
-        justify-content: center;
-        gap: 20px;
-        max-width: 90%;
+
+        &.active {
+            height: 50px;
+        }
 
         li {
+            height: 100%;
+
             a {
-                font-size: 12px;
-                line-height: 50px;
+                font-size: 13px;
+                padding: 0px 10px;
             }
 
-            &.subMenu {
-                .submenuContainer {
-                    top: 70px;
-                    max-width: 960px;
+            .subMenu {
+                top: 60px;
+                height: 260px;
+                max-width: 750px;
+                border-radius: 20px;
 
-                    .submenuBox {
-                        height: 500px;
-                        border-radius: 15px;
+                .subMenuContainer {
+                    display: flex;
 
-                        .titleBox {
-                            flex: 0 0 180px;
-                            border-radius: 15px 0px 0px 15px;
-                            display: none;
+                    .subMenuImage {
+                        height: 260px;
+                        flex: 0 0 40%;
+                        position: relative;
+                    }
 
-                            .mainTitle {
-                                font-size: 45px;
-                                line-height: 45px;
-                                width: 180px;
+                    .subMenuItems {
+                        flex: 0 0 60%;
+                        padding: 15px;
+                        height: 260px;
 
-                                span {
-                                    font-size: 30px;
-                                    line-height: 40px;
-                                }
-                            }
+                        .titleSubMenu {
+                            font-size: 50px;
+                            line-height: 50px;
+                            margin-bottom: 5px;
                         }
 
-                        .menuBox {
-                            flex: 0 0 100%;
-                            padding: 20px;
+                        ul {
 
-                            .serivesMenuBox {
-                                .serivesMenuItem {
-                                    flex: 0 0 33.33%;
-                                    margin-bottom: 10px;
+                            li {
+                                margin-bottom: 10px;
 
-                                    .title {
-                                        a {
-                                            font-size: 14px;
-                                            line-height: 22px;
-                                            margin-bottom: 10px;
+                                a {
+                                    font-size: 13px;
+                                    line-height: 18px;
 
-                                            svg {
-                                                margin-left: 8px;
-                                                width: 10px;
-                                            }
-                                        }
+                                    svg {
+                                        margin-right: 5px;
                                     }
 
-                                    ul {
-
-                                        li {
-                                            margin-bottom: 5px;
-
-                                            a {
-                                                font-size: 12px;
-                                                line-height: 19px;
-
-                                                svg {
-                                                    margin-right: 5px;
-                                                    height: 8px;
-                                                    width: auto;
-                                                }
-
-                                            }
-                                        }
-                                    }
                                 }
                             }
                         }
@@ -583,16 +496,12 @@
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     .menuSection {
-        display: none;
-    }
-
-    .mainMobileNavigation {
         position: fixed;
         width: 300px;
         height: calc(100vh - 0px);
-        background: rgba(0, 0, 0, 0.35);
-        backdrop-filter: blur(7.5px);
-        top: 60px;
+        background: #FFF6E9;
+        backdrop-filter: blur(13.5px);
+        top: 0px;
         right: -300px;
         transition: width 0.5s, opacity 0.5s;
         z-index: 9;
@@ -602,127 +511,81 @@
         border: 0px;
         border-radius: 0px;
         display: flex;
+        padding: 70px 20px 30px;
 
-        &.active {
+
+        &.activeMenu {
             right: 0px;
             opacity: 1;
             animation: slideFromTop 0.5s forwards;
             flex-direction: column;
             justify-content: flex-start;
+            align-items: flex-start;
+            text-align: left;
+            height: 100%;
+        }
 
-            .mobileNavigation {
-                padding: 10px 20px 10px;
-                height: calc(100vh - 110px);
-                overflow: auto;
+        li {
+            height: auto;
+            width: 100%;
+            display: block;
 
-                li {
-                    height: 40px;
-                    border-bottom: 1px solid rgb(255, 255, 255, 0.3);
-                    display: flex;
-                    justify-content: flex-start;
-                    align-items: center;
+            a {
+                font-size: 15px;
+                padding: 10px 10px;
+                line-height: 20px;
+                height: auto;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
 
-                    a {
-                        font-size: 14px;
-                        font-weight: 300;
-                        color: #fff;
-                        line-height: normal;
-                        transition: 0.3s linear;
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        flex: 0 0 calc(100% - 30px);
+            .subMenu {
+                position: relative;
+                height: 100%;
+                max-width: 100%;
+                border-radius: 20px;
+                top: unset;
+                border: 0px;
+                background: transparent;
+
+                .subMenuContainer {
+                    display: block;
 
 
-                        &:hover {
-                            transition: .3s linear;
-                            color: #9AFF35;
-                        }
+                    .subMenuImage {
+                        display: none;
                     }
 
-                    .subMenuIcon {
-                        flex: 0 0 30px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: flex-end;
+                    .subMenuItems {
+                        width: 100%;
+                        margin-bottom: 10px;
                         height: 100%;
-
-                        svg {
-                            height: 11px;
-                            transform: rotate(90deg);
+                        padding: 0px;
 
 
-                            path {
-                                stroke: #fff;
-                            }
-                        }
-
-                        &:hover {
-                            svg {
-                                transform: rotate(0deg);
-
-                                path {
-                                    stroke: #9AFF35;
-                                }
-                            }
-                        }
-                    }
-
-                    &.subMobileMenu {
-                        .mobilesubMenu {
+                        .titleSubMenu {
                             display: none;
                         }
 
-                        &:hover {
-                            height: auto;
-                            flex-wrap: wrap;
+                        ul {
+                            display: block;
+                            padding-left: 20px;
 
-                            a {
-                                height: 40px;
-                            }
-
-                            .mobilesubMenu {
-                                display: block;
-                                width: 100%;
+                            li {
                                 margin-bottom: 10px;
-
-                                li {
-                                    height: 25px;
-                                    border: 0px;
-
-                                    a {
-                                        font-size: 12px;
-                                        font-weight: 400;
-                                        color: #fff;
-                                        line-height: normal;
-                                        transition: 0.3s linear;
-                                        width: 100%;
-                                        height: auto;
-                                        justify-content: flex-start;
+                                height: auto;
 
 
-                                        svg {
-                                            height: 8px;
-                                            width: auto;
-                                            margin-right: 10px;
+                                a {
+                                    font-size: 13px;
+                                    line-height: 15px;
+                                    padding: 0px;
 
-                                        }
-
-                                        &:hover {
-                                            transition: .3s linear;
-                                            color: #9AFF35;
-
-                                            svg {
-                                                circle {
-                                                    stroke: #9AFF35;
-                                                }
-                                            }
-                                        }
+                                    svg {
+                                        margin-right: 10px;
+                                        width: 10px;
                                     }
 
-                                    &:last-child {
-                                        border-bottom: 0px;
-                                    }
                                 }
                             }
                         }
@@ -730,6 +593,5 @@
                 }
             }
         }
-
     }
 }

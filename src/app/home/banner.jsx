@@ -15,7 +15,7 @@ const Banner = () => {
                             <h1>Book Writing Company That Commits To Writing Excellence!</h1>
                             <p>Your wish to bring your dream/ideas to life, let our book writers make it come true. Fulfilling your self-publishing needs.</p>
                         </div>
-                        <UniqueButton txt="Talk to a Specialist" />
+                        <UniqueButton txt="Talk to a Specialist" BgBlack={true} />
                         <div className={styles.bannerLogo}>
                             <Image src={BannerLogo.src} alt="banner Image" height={28} width={560} />
                         </div>

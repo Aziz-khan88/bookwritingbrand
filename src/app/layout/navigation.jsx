@@ -1,14 +1,28 @@
+"use client"
 import Link from 'next/link'
 import styles from "@/styles/layout/navigation.module.scss"
 import IMGbg from "media/menuImage.webp"
 import Image from 'next/image'
-import { SubMenuIcon } from '@/src/app/app-constants'
-
+import { ClosedIcon, NavIcon, SubMenuIcon } from '@/src/app/app-constants'
+import { useState } from 'react';
 
 const Navigation = ({ scrolled, isLight }) => {
+    const [isActive, setIsActive] = useState(false);
+    const handleClick = () => {
+        setIsActive(!isActive);
+        if (!isActive) {
+            document.body.classList.add('active');
+        } else {
+            document.body.classList.remove('active');
+        }
+    };
     return (
         <>
-            <ul className={`${styles.menuSection} ${scrolled ? styles.active : ''} ${isLight ? "" : styles.isLight}`} >
+            <div onClick={handleClick}
+                className={`${isActive ? 'navIcon active' : 'navIcon'} ${isLight ? "" : 'isLight'}  ${scrolled ? "activeScroll" : ''}`}>
+                {isActive ? <ClosedIcon /> : <NavIcon />}
+            </div>
+            <ul className={`${styles.menuSection} ${isActive ? styles.activeMenu : ''} ${scrolled ? styles.active : ''} ${isLight ? "" : styles.isLight}`} >
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/about-us">About Us</Link></li>
                 <li><Link href="#">Services</Link>
