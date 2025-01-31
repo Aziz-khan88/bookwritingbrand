@@ -8,7 +8,7 @@ import BookReviews from "./bookreview"
 
 
 const Reviews = () => {
-    const [activeReview, setActiveReview] = useState("client");
+    const [activeReview, setActiveReview] = useState("book");
     return (
         <section className={`${styles.clientsReviewsSection} pt-100`}>
             <Container>
@@ -20,23 +20,24 @@ const Reviews = () => {
                     </Col>
                     <Col md={12} lg={4} className='my-auto'>
                         <ul className={styles.tabReviews}>
-                            <li
-                                onClick={() => setActiveReview("client")}
-                                className={activeReview === "client" ? styles.active : ""}
-                            >
-                                Client Reviews
-                            </li>
+
                             <li
                                 onClick={() => setActiveReview("book")}
                                 className={activeReview === "book" ? styles.active : ""}
                             >
                                 Book Reviews
                             </li>
+                            <li
+                                onClick={() => setActiveReview("client")}
+                                className={activeReview === "client" ? styles.active : ""}
+                            >
+                                Client Reviews
+                            </li>
                         </ul>
                     </Col>
                     <Col md={12}>
-                        {activeReview === "client" && <ClientReviews />}
                         {activeReview === "book" && <BookReviews />}
+                        {activeReview === "client" && <ClientReviews />}
                     </Col>
                 </Row>
             </Container>

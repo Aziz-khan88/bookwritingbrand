@@ -14,7 +14,7 @@ const Services = ({ data, offer, landing }) => {
                         <p>{data.desc}</p>
                     </Col>
                     <Col md={12}>
-                        <div className={`${styles.servicesContainer} ${offer ? styles.serviceOffer : ""} ${landing ? styles.langingService : ""}`}>
+                        <div className={`${styles.servicesContainer} ${offer ? styles.serviceOffer : ""} ${landing ? styles.landingService : ""}`}>
                             {data.ServicesItem.map((item, index) => (
                                 <div className={styles.servicesItem} key={index}>
                                     <div className={styles.servicesImage}>

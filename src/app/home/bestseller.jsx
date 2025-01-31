@@ -127,7 +127,7 @@ const BestSeller = ({ innerPage, landing, data }) => {
                                                     <h4>{item.title}</h4>
                                                     {!landing ? (
                                                         <>
-                                                            <p>{item.txt}</p>
+                                                            {/* <p>{item.txt}</p> */}
                                                             <div className={styles.btnReaMore}>
                                                                 Visit Amazon
                                                             </div>

@@ -1,29 +1,33 @@
 .innerServices {
-    // .scrollingTitle {
-    //     position: sticky;
-    //     top: 120px;
-    // }
+    .scrollingTitle {
+        position: sticky;
+        top: 120px;
+    }
 
     .scrollingBox {
-        height: 400px;
-        overflow: auto;
-
-        &::-webkit-scrollbar {
-            width: 0px;
-        }
 
         .scrollingItem {
             padding: 30px;
             background: rgba(255, 255, 255, 0.08);
-            border: 1px solid rgba(172, 181, 190, 0.5);
+            border: 1px solid rgba(172, 181, 190, 0.2);
             box-shadow: 0px 0px 40px rgba(68, 90, 106, 0.06);
             border-radius: 23px;
             margin-bottom: 20px;
-            height: 350px;
+            height: auto;
+
 
             h5 {
                 margin-bottom: 10px;
                 color: #393939;
+
+                &::after {
+                    content: '';
+                    background: #ff7f3e;
+                    height: 3px;
+                    width: 100px;
+                    display: block;
+                    margin-top: 10px;
+                }
             }
 
             p {
@@ -37,6 +41,7 @@
 
             &:hover {
                 background: #ff7f3e;
+
 
                 h5,
                 p {

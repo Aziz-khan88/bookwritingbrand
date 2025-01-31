@@ -16,6 +16,9 @@ import Client06 from "media/home/clientsLogo/06.webp";
 import Client07 from "media/home/clientsLogo/07.webp";
 import Client08 from "media/home/clientsLogo/06.webp";
 import Client09 from "media/home/clientsLogo/09.webp";
+import Client10 from "media/home/clientsLogo/10.webp";
+import Client11 from "media/home/clientsLogo/11.webp";
+import Client12 from "media/home/clientsLogo/12.webp";
 
 
 export const ClientImages = [
@@ -45,6 +48,15 @@ export const ClientImages = [
     },
     {
         Img: Client09.src,
+    },
+    {
+        Img: Client10.src,
+    },
+    {
+        Img: Client11.src,
+    },
+    {
+        Img: Client12.src,
     },
 
 ]

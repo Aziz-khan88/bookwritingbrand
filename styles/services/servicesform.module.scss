@@ -24,6 +24,7 @@
         .contentFrom {
             position: relative;
             z-index: 1;
+            padding: 0px 30px;
 
             h2 {
                 color: #fff;
@@ -34,5 +35,14 @@
             }
         }
 
+    }
+
+    .imgBox {
+        position: relative;
+        z-index: 2;
+
+        img {
+            height: 500px;
+        }
     }
 }

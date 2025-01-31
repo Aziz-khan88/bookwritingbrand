@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Form } from "react-bootstrap"
 import { usePathname } from 'next/navigation'
 
-const ContactFrom = ({ bg, vertical, txt }) => {
+const ContactFrom = ({ lp2, vertical, txt }) => {
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
     const [isDisabled, setIsDisabled] = useState(false);
@@ -87,9 +87,9 @@ const ContactFrom = ({ bg, vertical, txt }) => {
 
     return (
         <Form onSubmit={handleSubmit}>
-            <div className={`${styles.Contactbox}  ${vertical ? styles.verticalFrom : ""} `}>
+            <div className={`${styles.Contactbox} ${lp2 ? styles.lp2From : ""}  ${vertical ? styles.verticalFrom : ""} `}>
                 <div className={styles.contactItem}>
-                    <input type="text" placeholder="Full Name" name="name" required />
+                    <input type="text" placeholder="Name" name="name" required />
                 </div>
                 <div className={styles.contactItem}>
                     <input type="email" placeholder="Email" name="email" required />

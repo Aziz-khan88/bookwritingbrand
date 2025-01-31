@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
-    const conditionalVariable = pathname !== "/landing/lp1";
+    const conditionalVariable = pathname !== "/landing/lp1" && pathname !== "/landing/lp2";
     return (
         <>
             {conditionalVariable && <Header />}
