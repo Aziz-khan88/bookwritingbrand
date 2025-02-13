@@ -13,7 +13,7 @@ export const BestSellerData = {
 
 export const InnerServicesData = {
     title: "Powerful Websites Designed By The Best In The Game!",
-    txt: "As a professional author, it is important to have a website that represents you and your work well. At Book Writing Cube, a leading website designing company, we help you with that. A professional author's website design will help you stand out from the competition and make a great first impression on potential readers and clients. Professional website design services can help you create a website that is perfect for your needs.",
+    txt: "As a professional author, it is important to have a website that represents you and your work well. At Book Writing, a leading website designing company, we help you with that. A professional author's website design will help you stand out from the competition and make a great first impression on potential readers and clients. Professional website design services can help you create a website that is perfect for your needs.",
     InnerServicesItem: [
         {
             title: "How can an author website design service help me?",

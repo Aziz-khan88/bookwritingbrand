@@ -40,7 +40,7 @@ export const ServicesData = {
     ServicesItem: [
         {
             title: "Expertise and Creativity",
-            txt: "The team at Book Writing Cube has a wealth of experience and creativity, which allows them to produce high-quality book trailer service that will grab attention and get people talking.",
+            txt: "The team at Book Writing has a wealth of experience and creativity, which allows them to produce high-quality book trailer service that will grab attention and get people talking.",
         },
         {
             title: "Unique Approach",

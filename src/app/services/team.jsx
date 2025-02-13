@@ -31,7 +31,7 @@ const Team = () => {
                 <Row>
                     <Col md={12} lg={8} className="m-auto text-center">
                         <h2>Let Our Children’s Book Publishing Team Help You</h2>
-                        <p>Sketching childrens book characters is not everyone’s feat. From the book-length to a well-instilled message, have a hassle-free experience at Book Writing Cube.</p>
+                        <p>Sketching childrens book characters is not everyone’s feat. From the book-length to a well-instilled message, have a hassle-free experience at Book Writing.</p>
                     </Col>
                     <Col md={12}>
                         <div className={styles.teamContainer}>

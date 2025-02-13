@@ -15,7 +15,7 @@ export const InnerServicesData = {
         },
         {
             title: "What’s different about Self Publishing?",
-            txt: "By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications."
+            txt: "By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing, different teams designated for different kinds of publications."
         },
         {
             title: "How much does it cost to have a book published?",
@@ -23,7 +23,7 @@ export const InnerServicesData = {
         },
         {
             title: "Can I publish on different publishing platforms?",
-            txt: "Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e., Amazon KDP that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!"
+            txt: "Yes, you can. The Book Writing team will assist you in choosing the platform i.e., Amazon KDP that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!"
         }
     ]
 }
@@ -55,7 +55,7 @@ export const ServicesData = {
             title: "What Type Of Books Do We Publish?",
             txt: (<>
                 <p>We write, edit, publish and market all genres of books. Also, we provide similar services to self publish ebooks. So, we can also help you with self publishing.</p>
-                <p>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</p>
+                <p>Benefit from our wide-ranging array of book publication formats and forms and book your place as a Book Writing. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</p>
             </>),
             img: Image02.src
         },

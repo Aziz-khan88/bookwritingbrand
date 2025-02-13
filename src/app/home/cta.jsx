@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/home/cta.module.scss"
-import UniqueButton from "../components/uniquebutton"
+import UniqueButton from "@/src/app/components/uniquebutton"
 
 
 const CTA = ({ data, big }) => {

@@ -1,7 +1,7 @@
 import BannerImg from "media/services/book-proofreading-services/bannerImage.webp"
 export const BannerData = {
     title: "Offering You Book Proofreading Services That Turn Your Content Piece From Drab to Fab!",
-    txt: "Don't let your writing be weakened by mistakes that may go under your nose. Our professional proofreaders are all set to catch any typos, grammatical errors, or other issues hurting the sentiment of your writing. Book Writing Cube is committed to providing high-quality book proofreading services to help you improve your writing and ensure that your book is error-free.",
+    txt: "Don't let your writing be weakened by mistakes that may go under your nose. Our professional proofreaders are all set to catch any typos, grammatical errors, or other issues hurting the sentiment of your writing. Book Writing is committed to providing high-quality book proofreading services to help you improve your writing and ensure that your book is error-free.",
     img: BannerImg.src
 }
 
@@ -13,7 +13,7 @@ export const BestSellerData = {
 
 export const InnerServicesData = {
     title: "Answers to Some Questions That May Be Whirling Around Your Head!",
-    txt: "Our proofreading experts go above and beyond to make your manuscript flawless and attention-grabbing. Whether you are an author who wants to perfect your books or a business person who wants their publications to look professional, we serve as the perfect stop to pause. Book Writing Cube sets the bar high with its standard proofreading services online and knows what its clients may be thinking of. So, here are some frequently asked questions by clients.",
+    txt: "Our proofreading experts go above and beyond to make your manuscript flawless and attention-grabbing. Whether you are an author who wants to perfect your books or a business person who wants their publications to look professional, we serve as the perfect stop to pause. Book Writing sets the bar high with its standard proofreading services online and knows what its clients may be thinking of. So, here are some frequently asked questions by clients.",
     InnerServicesItem: [
         {
             title: "How Much Does A Book Proofreading Service Cost?",
@@ -61,7 +61,7 @@ export const ServicesData = {
         },
         {
             title: "All Ears to You",
-            txt: "Sun never sets on Book Writing Cube. We welcome queries of our valued clients with the laser-speedy response and ensure their concerns are addressed at the earliest possible.",
+            txt: "Sun never sets on Book Writing. We welcome queries of our valued clients with the laser-speedy response and ensure their concerns are addressed at the earliest possible.",
         },
 
     ]

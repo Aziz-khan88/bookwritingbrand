@@ -12,7 +12,7 @@ export const BestSellerData = {
 
 export const InnerServicesData = {
     title: "Don’t Let Your Questions Pester You Any Longer. We Have Answers To Rein Them In!",
-    txt: "Our book cover design experts go above and beyond to make your book look flawless and attention-grabbing. Whether you are an author who wants design for their books or a business person who wants their publications to look professional, we serve as the perfect stop to pause. Book Writing Cube sets the bar high with its standard book cover design services and knows what its clients may be thinking of. So, here are some frequently asked questions.",
+    txt: "Our book cover design experts go above and beyond to make your book look flawless and attention-grabbing. Whether you are an author who wants design for their books or a business person who wants their publications to look professional, we serve as the perfect stop to pause. Book Writing sets the bar high with its standard book cover design services and knows what its clients may be thinking of. So, here are some frequently asked questions.",
     InnerServicesItem: [
         {
             title: "What Makes A Good Book Cover Design?",

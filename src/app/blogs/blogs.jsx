@@ -18,7 +18,7 @@ const Blogs = ({ data, blogPage }) => {
                 </Row>
                 <Row>
                     {data.BlogsData.map((item, index) => (
-                        <Col md={4} sm={6} key={index}>
+                        <Col lg={4} md={6} sm={6} key={index}>
                             <div className={styles.blogItem}>
                                 <div className={styles.blogImg}>
                                     <Image src={item.img} alt="Blog Image" fill />

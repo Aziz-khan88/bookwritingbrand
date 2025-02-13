@@ -35,7 +35,7 @@ const ServicesProcess = ({ data }) => {
                             </div>
                         ))}
                     </Col>
-                    <Col md={6} className="mx-auto">
+                    <Col md={8} lg={6} className="mx-auto">
                         {data.ProcessDataItem3.map((item, index) => (
                             <div className={`${styles.processItem} ${styles.processLast}`} key={index}>
                                 <h4>{item.title}</h4>

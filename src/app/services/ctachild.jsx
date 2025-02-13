@@ -10,7 +10,7 @@ const CtaChild = () => {
         <section className={`${styles.ctaChildSection} pt-100`}>
             <Container className={styles.bgChild} style={{ backgroundImage: `url(${BgIMG.src})` }}>
                 <Row>
-                    <Col md={10} lg={12}>
+                    <Col md={12} lg={12}>
                         <div className={styles.ctaContainer} >
                             <div className={styles.ctaTxt}>
                                 <h2>Talk To Us Today!</h2>

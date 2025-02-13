@@ -80,7 +80,7 @@
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .tableContent {
-        padding-bottom: 50px;
+        padding-bottom: 0px;
         margin-top: 80px;
 
         .tableContainer {
@@ -112,7 +112,6 @@
                         }
 
                         &:last-child {
-                            padding: 0px;
 
                             .buttonLast {
                                 font-size: 18px;
@@ -129,7 +128,7 @@
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
     .tableContent {
-        padding-bottom: 50px;
+        padding-bottom: 0px;
         margin-top: 70px;
 
         .tableContainer {
@@ -161,7 +160,6 @@
                         }
 
                         &:last-child {
-                            padding: 0px;
 
                             .buttonLast {
                                 font-size: 16px;
@@ -178,7 +176,7 @@
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
     .tableContent {
-        padding-bottom: 50px;
+        padding-bottom: 0px;
         margin-top: 50px;
         border-radius: 50px;
 
@@ -211,8 +209,6 @@
                         }
 
                         &:last-child {
-                            padding: 0px;
-
                             .buttonLast {
                                 font-size: 16px;
                                 line-height: 20px;
@@ -228,7 +224,7 @@
 
 @media only screen and (min-width: 900px) and (max-width:1099px) {
     .tableContent {
-        padding-bottom: 50px;
+        padding-bottom: 0px;
         margin-top: 50px;
         border-radius: 50px;
 
@@ -261,7 +257,6 @@
                         }
 
                         &:last-child {
-                            padding: 0px;
 
                             .buttonLast {
                                 font-size: 14px;
@@ -278,7 +273,7 @@
 
 @media only screen and (min-width: 768px) and (max-width:899px) {
     .tableContent {
-        padding-bottom: 50px;
+        padding-bottom: 0px;
         margin-top: 50px;
         border-radius: 50px;
 
@@ -311,7 +306,6 @@
                         }
 
                         &:last-child {
-                            padding: 0px;
 
                             .buttonLast {
                                 font-size: 13px;
@@ -328,7 +322,7 @@
 
 @media only screen and (min-width: 576px) and (max-width:767px) {
     .tableContent {
-        padding-bottom: 50px;
+        padding-bottom: 0px;
         margin-top: 50px;
         border-radius: 50px;
 
@@ -369,7 +363,7 @@
                         }
 
                         &:last-child {
-                            padding: 0px;
+
 
                             .buttonLast {
                                 font-size: 13px;
@@ -429,7 +423,7 @@
                         }
 
                         &:last-child {
-                            padding: 0px;
+
 
                             .buttonLast {
                                 font-size: 13px;

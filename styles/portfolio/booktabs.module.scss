@@ -199,6 +199,8 @@
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .bookTabs {
         .tabContainer {
+            overflow: hidden;
+
             .tabHeader {
                 ul {
                     gap: 10px;
@@ -216,14 +218,56 @@
             .tabBody {
                 flex-wrap: wrap;
 
+
                 .ImageBox {
                     height: 370px;
                     position: relative;
-                    border-radius: 20px;
-
+                    border-radius: 10px;
 
                     img {
-                        border-radius: 20px;
+                        border-radius: 10px;
+                    }
+
+                    .TxtBox {
+                        padding: 20px;
+                        border-radius: 10px;
+
+                        .title {
+                            h5 {
+                                font-size: 18px;
+                                line-height: 24px;
+                                margin-bottom: 10px;
+                            }
+
+                            p {
+                                font-size: 14px;
+                                line-height: 20px;
+                            }
+
+                            a {
+                                font-size: 13px;
+                                line-height: 13px;
+                            }
+                        }
+
+                        .profile {
+                            gap: 10px;
+
+                            .imgBox {
+                                height: 45px;
+                                width: 45px;
+                            }
+
+                            .imgTitle {
+                                font-size: 14px;
+                                line-height: 16px;
+
+                                span {
+                                    font-size: 13px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -254,11 +298,53 @@
                 .ImageBox {
                     height: 330px;
                     position: relative;
-                    border-radius: 20px;
+                    border-radius: 10px;
 
 
                     img {
-                        border-radius: 20px;
+                        border-radius: 10px;
+                    }
+
+                    .TxtBox {
+                        padding: 20px;
+                        border-radius: 10px;
+
+                        .title {
+                            h5 {
+                                font-size: 16px;
+                                line-height: 22px;
+                                margin-bottom: 10px;
+                            }
+
+                            p {
+                                font-size: 13px;
+                                line-height: 20px;
+                            }
+
+                            a {
+                                font-size: 13px;
+                                line-height: 13px;
+                            }
+                        }
+
+                        .profile {
+                            gap: 10px;
+
+                            .imgBox {
+                                height: 45px;
+                                width: 45px;
+                            }
+
+                            .imgTitle {
+                                font-size: 13px;
+                                line-height: 16px;
+
+                                span {
+                                    font-size: 13px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -289,10 +375,52 @@
                 .ImageBox {
                     height: 300px;
                     position: relative;
-                    border-radius: 15px;
+                    border-radius: 10px;
 
                     img {
-                        border-radius: 15px;
+                        border-radius: 10px;
+                    }
+
+                    .TxtBox {
+                        padding: 15px;
+                        border-radius: 10px;
+
+                        .title {
+                            h5 {
+                                font-size: 16px;
+                                line-height: 22px;
+                                margin-bottom: 10px;
+                            }
+
+                            p {
+                                font-size: 13px;
+                                line-height: 20px;
+                            }
+
+                            a {
+                                font-size: 13px;
+                                line-height: 13px;
+                            }
+                        }
+
+                        .profile {
+                            gap: 10px;
+
+                            .imgBox {
+                                height: 40px;
+                                width: 40px;
+                            }
+
+                            .imgTitle {
+                                font-size: 12px;
+                                line-height: 16px;
+
+                                span {
+                                    font-size: 13px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -323,11 +451,53 @@
                 .ImageBox {
                     height: 350px;
                     position: relative;
-                    border-radius: 15px;
+                    border-radius: 10px;
                     flex: 0 0 calc(100% / 4 - 10px);
 
                     img {
-                        border-radius: 15px;
+                        border-radius: 10px;
+                    }
+
+                    .TxtBox {
+                        padding: 15px;
+                        border-radius: 10px;
+
+                        .title {
+                            h5 {
+                                font-size: 16px;
+                                line-height: 22px;
+                                margin-bottom: 10px;
+                            }
+
+                            p {
+                                font-size: 13px;
+                                line-height: 20px;
+                            }
+
+                            a {
+                                font-size: 13px;
+                                line-height: 13px;
+                            }
+                        }
+
+                        .profile {
+                            gap: 10px;
+
+                            .imgBox {
+                                height: 40px;
+                                width: 40px;
+                            }
+
+                            .imgTitle {
+                                font-size: 12px;
+                                line-height: 16px;
+
+                                span {
+                                    font-size: 13px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -340,14 +510,14 @@
         .tabContainer {
             .tabHeader {
                 ul {
-                    gap: 10px;
+                    gap: 5px;
                     margin: 10px 0px 30px;
 
                     li {
                         height: 40px;
                         font-size: 13px;
                         line-height: 40px;
-                        padding: 0px 20px;
+                        padding: 0px 10px;
                     }
                 }
             }
@@ -358,11 +528,53 @@
                 .ImageBox {
                     height: 340px;
                     position: relative;
-                    border-radius: 15px;
+                    border-radius: 10px;
                     flex: 0 0 calc(100% / 3 - 10px);
 
                     img {
-                        border-radius: 15px;
+                        border-radius: 10px;
+                    }
+
+                    .TxtBox {
+                        padding: 15px;
+                        border-radius: 10px;
+
+                        .title {
+                            h5 {
+                                font-size: 16px;
+                                line-height: 22px;
+                                margin-bottom: 10px;
+                            }
+
+                            p {
+                                font-size: 13px;
+                                line-height: 20px;
+                            }
+
+                            a {
+                                font-size: 13px;
+                                line-height: 13px;
+                            }
+                        }
+
+                        .profile {
+                            gap: 10px;
+
+                            .imgBox {
+                                height: 40px;
+                                width: 40px;
+                            }
+
+                            .imgTitle {
+                                font-size: 12px;
+                                line-height: 16px;
+
+                                span {
+                                    font-size: 13px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -391,13 +603,55 @@
                 flex-wrap: wrap;
 
                 .ImageBox {
-                    height: 280px;
+                    height: 350px;
                     position: relative;
-                    border-radius: 15px;
-                    flex: 0 0 calc(100% / 3 - 10px);
+                    border-radius: 10px;
+                    flex: 0 0 calc(100% / 2 - 10px);
 
                     img {
-                        border-radius: 15px;
+                        border-radius: 10px;
+                    }
+
+                    .TxtBox {
+                        padding: 15px;
+                        border-radius: 10px;
+
+                        .title {
+                            h5 {
+                                font-size: 16px;
+                                line-height: 22px;
+                                margin-bottom: 10px;
+                            }
+
+                            p {
+                                font-size: 13px;
+                                line-height: 20px;
+                            }
+
+                            a {
+                                font-size: 13px;
+                                line-height: 13px;
+                            }
+                        }
+
+                        .profile {
+                            gap: 10px;
+
+                            .imgBox {
+                                height: 40px;
+                                width: 40px;
+                            }
+
+                            .imgTitle {
+                                font-size: 12px;
+                                line-height: 16px;
+
+                                span {
+                                    font-size: 13px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -428,13 +682,55 @@
                 flex-wrap: wrap;
 
                 .ImageBox {
-                    height: 250px;
+                    height: 350px;
                     position: relative;
-                    border-radius: 15px;
-                    flex: 0 0 calc(100% / 2 - 10px);
+                    border-radius: 10px;
+                    flex: 0 0 calc(100% - 0px);
 
                     img {
-                        border-radius: 15px;
+                        border-radius: 10px;
+                    }
+
+                    .TxtBox {
+                        padding: 15px;
+                        border-radius: 10px;
+
+                        .title {
+                            h5 {
+                                font-size: 16px;
+                                line-height: 22px;
+                                margin-bottom: 10px;
+                            }
+
+                            p {
+                                font-size: 13px;
+                                line-height: 20px;
+                            }
+
+                            a {
+                                font-size: 13px;
+                                line-height: 13px;
+                            }
+                        }
+
+                        .profile {
+                            gap: 10px;
+
+                            .imgBox {
+                                height: 40px;
+                                width: 40px;
+                            }
+
+                            .imgTitle {
+                                font-size: 12px;
+                                line-height: 16px;
+
+                                span {
+                                    font-size: 13px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
                     }
                 }
             }

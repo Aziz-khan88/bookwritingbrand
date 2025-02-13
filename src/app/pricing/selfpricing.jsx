@@ -20,7 +20,7 @@ const SelfPricing = ({ data }) => {
                                         <div className={styles.category}><span>0{index + 1}</span>{item.subtitle}</div>
                                         <h4>{item.title}</h4>
                                         <p>{item.txt}</p>
-                                        <UniqueButton txt="Get a Quote" />
+                                        <UniqueButton txt="Get a Quote" BgBlack={true} />
                                     </div>
                                 </div>
                             ))}
