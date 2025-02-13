@@ -1,7 +1,7 @@
 import BannerImg from "media/services/book-trailer-services/bannerImage.webp"
 export const BannerData = {
     title: "Build Excitement For Your Forthcoming Book With Our Book Trailer Services!",
-    txt: "Don’t you want to generate interest in your book? Book trailers can fit the bill.Without the shadow of a doubt, they give potential customers a taste of what your book is about, and it can also help build buzz around your book.By creating a short video that showcases your book, you can give potential readers a flavor of what your writing is like and help them decide if they'd like to check out your work.",
+    txt: "Don’t you want to generate interest in your book? Book trailers can fit the bill. Without the shadow of a doubt, they give potential customers a taste of what your book is about, and it can also help build buzz around your book. By creating a short video that showcases your book, you can give potential readers a flavor of what your writing is like and help them decide if they'd like to check out your work.",
     img: BannerImg.src
 }
 
