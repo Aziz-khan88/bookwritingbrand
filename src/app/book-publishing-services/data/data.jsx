@@ -1,7 +1,7 @@
 import BannerImg from "media/services/book-publishing-services/bannerImage.webp"
 export const BannerData = {
     title: "Book Publishing Services Giving You The Creative Control You Deserve!",
-    txt: "Whether it be amazon self publishing or any other platform, our book publishing services give you the creative control you deserve. Discuss with our expert book publishers the creative control you deserve. Discuss with our expert book publishers.",
+    txt: "Whether it be amazon self publishing or any other platform, our book publishing services give you the creative control you deserve. Discuss with our expert book publishers the creative control you deserve.",
     img: BannerImg.src
 }
 
