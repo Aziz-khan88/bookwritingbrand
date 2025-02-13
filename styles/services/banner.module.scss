@@ -2,7 +2,8 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 1000px auto;
-    height: 90vh;
+    height: 80vh;
+    padding-top: 100px;
 
     &.bgImage {
         background-size: cover;
@@ -29,8 +30,8 @@
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .bannerSection {
-        padding-top: 50px;
-        height: 100vh;
+        padding-top: 70px;
+        height: 90vh;
 
         &.bgImage {
             background-size: cover;
@@ -42,7 +43,7 @@
             margin-top: 30px;
 
             img {
-                height: 25px;
+                height: 22px;
                 width: auto;
             }
         }
@@ -57,8 +58,8 @@
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
     .bannerSection {
-        padding-top: 50px;
-        height: 100vh;
+        padding-top: 70px;
+        height: 90vh;
 
         &.bgImage {
             background-size: cover;
@@ -70,7 +71,7 @@
             margin-top: 30px;
 
             img {
-                height: 25px;
+                height: 22px;
                 width: auto;
             }
         }
@@ -84,8 +85,8 @@
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
     .bannerSection {
-        padding-top: 50px;
-        height: 100vh;
+        padding-top: 70px;
+        height: 90vh;
 
         &.bgImage {
             background-size: cover;
@@ -97,7 +98,7 @@
             margin-top: 30px;
 
             img {
-                height: 25px;
+                height: 20px;
                 width: auto;
             }
         }
