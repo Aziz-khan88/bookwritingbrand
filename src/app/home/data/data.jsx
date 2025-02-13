@@ -2,7 +2,7 @@
 export const ServicesData = {
     subtitle: "Services",
     title: "Our Comprehensive Book Services Include",
-    desc: "Elevate your brand with targeted social media strategies that drive engagement, grow your audience, and deliver results!",
+    desc: "",
     ServicesItem: [
         {
             title: "Book Editing",
