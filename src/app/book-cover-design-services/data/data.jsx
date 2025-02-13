@@ -39,7 +39,7 @@ export const ServicesData = {
     desc: "",
     ServicesItem: [
         {
-            title: "Seasoned Designers",
+            title: "Professional Designers",
             txt: "We have a team of highly skilled and experienced designers who can create stunning book covers that ensure your book stands out from the rest. From offering eBook cover design services to Amazon book cover design services, there is nothing we can’t do when it comes to designing covers for your book.",
         },
         {
