@@ -111,7 +111,7 @@ export const ProcessData = {
     ProcessDataItem1: [
         {
             title: "Submission",
-            txt: "We request the Author to submit their manuscript, so that our Professiona Publishing Team can review and discuss the goals and objectives for Publishing."
+            txt: "We request the Author to submit their manuscript, so that our Professional Publishing Team can review and discuss the goals and objectives for Publishing."
         },
         {
             title: "Typesetting, Images, Illustrations",
@@ -121,11 +121,11 @@ export const ProcessData = {
     ProcessDataItem2: [
         {
             title: "Proofreading & Editing",
-            txt: "After receiving the draft, we thoroughly review, analyze, proofread, and edit the content as per the Publishing Standards"
+            txt: "After receiving the draft, we thoroughly review, analyze, proofread, and edit the content as per the Publishing Standards."
         },
         {
             title: "Book Cover Design",
-            txt: "We will design the book, keeping all important aspects in mind.All the books are designed with front and back covers, author bios, table of contents, etc."
+            txt: "We will design the book, keeping all important aspects in mind. All the books are designed with front and back covers, author bios, table of contents, etc."
         }
     ],
     ProcessDataItem3: [

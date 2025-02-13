@@ -45,7 +45,7 @@ export const ServicesData = {
 
 export const BestSellerData = {
     title: "Our Best Sellers",
-    txt: "Lorem ipsum dolor sit amet blandit consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec lorem."
+    txt: "Discover our best-selling books, crafted with passion. We write compelling stories, with expert knowledge, and unforgettable reading experiences."
 }
 
 

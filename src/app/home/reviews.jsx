@@ -16,7 +16,7 @@ const Reviews = () => {
                     <Col md={12} lg={8}>
                         <div className="subtitle">Our Reviews</div>
                         <h2>Let’s hear what they have to say!</h2>
-                        <p>Lorem ipsum dolor sit amet blandit consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec lorem.</p>
+                        <p>We take pride in bringing stories to life. Let’s hear from our clients who turned their dreams into published books!</p>
                     </Col>
                     <Col md={12} lg={4} className='my-auto'>
                         <ul className={styles.tabReviews}>

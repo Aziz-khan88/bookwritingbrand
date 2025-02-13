@@ -75,28 +75,28 @@ export const ProcessData = {
     img: BookImg.src,
     ProcessDataItem1: [
         {
-            title: "Submission",
-            txt: "We request the author to submit their manuscript, so that our professional publishing Team can review and discuss the goals and objectives for publishing."
+            title: "Script Preparation",
+            txt: "We review your manuscript, formatting it for narration while ensuring clarity, proper pacing, and seamless transitions for a smooth audiobook listening experience."
         },
         {
-            title: "Typesetting, Images, Illustrations",
-            txt: "Once with the content and text of the manuscript, we set the right Designs, include images and graphical illustrations, and book cover Design. "
+            title: "Professional Narration",
+            txt: "Our skilled voice artists bring your story to life, delivering engaging, expressive, and high-quality narration that resonates with your target audience."
         },
     ],
     ProcessDataItem2: [
         {
-            title: "Proofreading and Editing",
-            txt: "After receiving the draft, we thoroughly review, analyze, proofread, and edit the content as per the publishing standards."
+            title: "Audio Production",
+            txt: "We enhance recordings with noise reduction, audio balancing, and professional sound engineering to ensure crystal-clear, immersive, and studio-quality audio."
         },
         {
-            title: "Book Cover Design",
-            txt: "We will design the book, keeping all important aspects in mind. all the books are designed with front and back covers, author bios, table of content, etc."
+            title: "Editing & Refinement",
+            txt: "Our experts meticulously edit and proof the audio, eliminating errors, mispronunciations, and inconsistencies to maintain seamless flow and professional quality."
         },
     ],
     ProcessDataItem3: [
         {
-            title: "Publishing and Distribution",
-            txt: "After step 1 to step 4 are finalized, the manuscript is submitted for publishing in the clients’ required formats, ensuring compliance with the publishing standards."
+            title: "From Page To Sound",
+            txt: "We refine the final audio, optimizing sound levels and formatting to meet industry standards, ensuring your audiobook is ready for distribution on major platforms."
         }
     ]
 }

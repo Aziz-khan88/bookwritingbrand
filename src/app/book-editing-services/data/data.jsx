@@ -101,28 +101,28 @@ export const ProcessData = {
     img: BookImg.src,
     ProcessDataItem1: [
         {
-            title: "Submission",
-            txt: "We Request the Author to submit their manuscript, so that our Professional publishing Team can review and discuss the  goals and objectives for Publishing"
+            title: "Manuscript Evaluation",
+            txt: "Our expert editors thoroughly assess your manuscript, identifying structural, grammatical, and stylistic improvements to enhance clarity, coherence, and overall readability."
         },
         {
-            title: "Typesetting, Images, Illustrations",
-            txt: "Once with the content and text of the manuscript, we set the right Designs, Include Images and Graphical Illustration, and Book Cover Design."
+            title: "Line Editing",
+            txt: "Our editors meticulously polish sentence structure, word choice, and overall readability, ensuring a smooth and engaging reading experience without altering your original message."
         }
     ],
     ProcessDataItem2: [
         {
-            title: "Proofreading & Editing",
-            txt: "After receiving the draft, we thoroughly review, analyze, proofread, and edit the content as per the publishing standards"
+            title: "Developmental Editing",
+            txt: "We refine your content, strengthening story flow, character development, and narrative consistency while preserving your unique voice and writing style for maximum impact."
         },
         {
-            title: "Book Cover Design",
-            txt: "We will design the book, keeping all important aspects in mind. All the books are designed with front and back covers, author bios, table of content, etc"
+            title: "Copy Editing",
+            txt: "We correct grammar, punctuation, spelling, and syntax errors while maintaining consistency in language, tone, and formatting for a professional and polished manuscript."
         }
     ],
     ProcessDataItem3: [
         {
-            title: "Publishing & Distribution",
-            txt: "After step 1 to step 4 are finalized, the manuscript is submittedfor publishing in the client’s required formats, ensuring compliance with the publishing standards."
+            title: "Final Proofreading",
+            txt: "A final review eliminates any remaining errors, ensuring your manuscript is flawless, publication-ready, and meets the highest professional editing standards before reaching readers."
         }
     ]
 }
