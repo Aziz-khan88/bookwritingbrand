@@ -34,23 +34,26 @@ const Footer = () => {
                                     <div className={styles.LinksItem}>
                                         <h5>Quick Links</h5>
                                         <ul>
-                                            <li><Link href="">Home</Link></li>
-                                            <li><Link href="">Pricing</Link></li>
-                                            <li><Link href="">Contact</Link></li>
-                                            <li><Link href="">Let Get Started</Link></li>
+                                            <li><Link href="/pricing">Pricing</Link></li>
+                                            <li><Link href="/portfolio">Portfolio</Link></li>
+                                            <li><Link href="/blogs">Blogs</Link></li>
+                                            <li><Link href="/contact-us">Contact Us</Link></li>
                                         </ul>
                                     </div>
                                     <div className={styles.LinksItem}>
                                         <h5>Our Services</h5>
                                         <ul>
-                                            <li><Link href="">Book Writing</Link></li>
-                                            <li><Link href="">Book Marketing</Link></li>
-                                            <li><Link href="">Book Editing</Link></li>
-                                            <li><Link href="">Book Publishing</Link></li>
-                                            <li><Link href="">Ebook Writing</Link></li>
-                                            <li><Link href="">Book Marketing</Link></li>
-                                            <li><Link href="">Digital Marketing</Link></li>
-                                            <li><Link href="">Announcement</Link></li>
+                                            <li><Link href="/book-writing-services">Book Writing</Link></li>
+                                            <li><Link href="/book-trailer-services">Book Video Trailer</Link></li>
+                                            <li><Link href="/book-editing-services">Book Editing</Link></li>
+                                            <li><Link href="/audiobook-recording-services">Audio Book</Link></li>
+                                            <li><Link href="/book-publishing-services">Book Publishing</Link></li>
+                                            <li><Link href="/book-cover-design-services">Book Cover Design</Link></li>
+                                            <li><Link href="/book-marketing-services">Book Marketing</Link></li>
+                                            <li><Link href="/author-website-design-services">Author Website</Link></li>
+                                            <li><Link href="/children-book-publication-services">Children Book Publication</Link></li>
+                                            <li><Link href="/book-proofreading-services">Proofreading</Link></li>
+                                            <li><Link href="/children-book-illustrator">Children Book Illustration</Link></li>
                                         </ul>
                                     </div>
                                     <div className={styles.LinksItem}>
@@ -67,7 +70,7 @@ const Footer = () => {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section >
             <section className={`${styles.copyRightSection}`}>
                 <Container className={`${styles.bgGrayColor} h-100`}>
                     <Row className="h-100">
