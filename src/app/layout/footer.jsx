@@ -59,7 +59,7 @@ const Footer = () => {
                                     <div className={styles.LinksItem}>
                                         <h5>Contact Us</h5>
                                         <ul>
-                                            <li>Email: <Link href="">infor@bookwriting.com</Link></li>
+                                            <li>Email: <Link href="">info@bookwriting.com</Link></li>
                                             <li>Toll Free: <Link href="">866-600-0036</Link></li>
                                             <li>For Sale Inquiry: <Link href="">(302) 459-5127</Link></li>
                                             <li>For Project Inquiry: <Link href="">(302) 480-9990</Link></li>
