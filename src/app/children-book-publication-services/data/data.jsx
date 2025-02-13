@@ -31,7 +31,7 @@ export const ServicesData = {
 // CTA
 import CtaImage from "@/public/services/children-book-publication-services/ctaImage.webp"
 export const CtaData = {
-    title: "Your how’s, what’s, and why’s of children's book Publishing, answered!",
+    title: "Your how’s, what’s, and why’s of Children’s Book Publishing, answered!",
     txt: (<>
         <p>Get this: Children’s Book Publishing is no easier task. Of course, the length of the book is relatively short, but précising an idea with a well-instilled message requires multiple rewrites and re-drafts. The goal here is to make your story as easy to visualize as possible. If a reader has to re-read a sentence for better understanding, you probably just missed the whole purpose of Children’s Book Publishing.</p>
         <p>Here at Book Writing, we offer you the expertise of a well-put-together team of Children’s Book Publishing experts. From fixing the illustration sizes to designing it with catchy images, our teams know just to make your book every child’s must-have.</p>
