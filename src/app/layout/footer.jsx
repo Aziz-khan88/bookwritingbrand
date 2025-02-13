@@ -46,14 +46,14 @@ const Footer = () => {
                                             <li><Link href="/book-writing-services">Book Writing</Link></li>
                                             <li><Link href="/book-trailer-services">Book Video Trailer</Link></li>
                                             <li><Link href="/book-editing-services">Book Editing</Link></li>
-                                            <li><Link href="/audiobook-recording-services">Audio Book</Link></li>
                                             <li><Link href="/book-publishing-services">Book Publishing</Link></li>
                                             <li><Link href="/book-cover-design-services">Book Cover Design</Link></li>
                                             <li><Link href="/book-marketing-services">Book Marketing</Link></li>
+                                            <li><Link href="/audiobook-recording-services">Audio Book</Link></li>
+                                            <li><Link href="/children-book-illustrator">Children Book Illustration</Link></li>
                                             <li><Link href="/author-website-design-services">Author Website</Link></li>
                                             <li><Link href="/children-book-publication-services">Children Book Publication</Link></li>
-                                            <li><Link href="/book-proofreading-services">Proofreading</Link></li>
-                                            <li><Link href="/children-book-illustrator">Children Book Illustration</Link></li>
+
                                         </ul>
                                     </div>
                                     <div className={styles.LinksItem}>
